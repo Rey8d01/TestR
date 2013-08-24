@@ -1,5 +1,6 @@
+var wysiarea;
 $(function() {
-    try {var wysiarea = $(".textarea").wysihtml5().data("wysihtml5").editor;} catch (e) {}
+    try {wysiarea = $(".textarea").wysihtml5().data("wysihtml5").editor;} catch (e) {}
     try {$("#gp-gallery").gpGallery('img');} catch (e) {}
     try {$('#myCarousel').carousel({interval: 7000});} catch (e) {}
 
