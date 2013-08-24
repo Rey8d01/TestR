@@ -1,19 +1,11 @@
-try {
-    var wysiarea = $(".textarea").wysihtml5().data("wysihtml5").editor;
-} catch (e) {
-
-}
-
-$("#myModal").modal({
-     backdrop: true,
-     show: false
-});
-
 $(function() {
-    $("#gp-gallery").gpGallery('img');
+    try {var wysiarea = $(".textarea").wysihtml5().data("wysihtml5").editor;} catch (e) {}
+    try {$("#gp-gallery").gpGallery('img');} catch (e) {}
+    try {$('#myCarousel').carousel({interval: 7000});} catch (e) {}
 
-    $('#myCarousel').carousel({
-      interval: 7000
+    $("#myModal").modal({
+         backdrop: true,
+         show: false
     });
 });
 
