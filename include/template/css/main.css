@@ -1,0 +1,149 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.textarea {
+    width: 570px;
+    height: 200px;
+}
+
+/* Список подкатегорий */
+.list_category li.category_separate {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    line-height: 14px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.list_category li.category_separate:last-of-type {
+    display: none;
+}
+.list_content .content, .list_comment .comment {
+    box-shadow: 4px 4px 4px #DFDFDF;
+    background-color: #fff;
+    border: 1px solid #DFDFDF;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+}
+.list_content .content_footer {
+    padding-bottom: 1em;
+}
+
+.list_comment .comment img {
+    /*float: left;*/
+    /*display: inline-block;*/
+    /*margin-right: 1em;*/
+    /*margin-bottom: 1em;*/
+}
+
+.list_comment .comment legend {
+    width: inherit;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border: inherit;
+
+}
+
+#myCarousel {
+    width: 800px;
+    height: 600px;
+}
+
+.panel {
+    /*height: 200px;*/
+    padding: 20px 60px 20px 60px;
+}
+
+.panel-unit {
+    display: inline-block;
+}
+
+.panel .unit1 {
+    width: 180px;
+}
+
+.panel .unit2 {
+    width: 200px;
+}
+
+/* Добавление стилей к бару процесса загрузки файла */
+
+.progress {
+    width: 140px;
+    margin-top: 1em;
+}
+
+.text-center > .progress {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Для file-upload что бы input выбора файла выглядел как кнопка */
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+}
+
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+/* Список пользователей через поиск по имени */
+.list_user div[person] {
+    cursor: pointer;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.list_user div[person]:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+#gp-gallery {
+    margin: 2em auto;
+    /*width: 800px;*/
+    /*display: ;*/
+}
+
+#admin_index {
+    background-color: #f5f5f5;
+    box-shadow: 4px 4px 4px #DFDFDF;
+    border: 1px solid #DFDFDF;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    margin-right: -3em;
+}
+
+#admin_index table {
+    background-color: #fff;
+}
+
+.index-hero {
+    box-shadow: 4px 4px 4px #DFDFDF;
+    border: 1px solid #DFDFDF;
+    border-radius: 0;
+}
